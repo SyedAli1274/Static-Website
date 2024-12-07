@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Digital - Creative Digital Agency</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/api/placeholder/150/50" alt="Nexus Digital Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Transforming Digital Experiences</h1>
+          <p>
+            We craft innovative digital solutions that drive your business
+            forward
+          </p>
+          <div class="hero-cta">
+            <a href="#services" class="btn btn-primary">Our Services</a>
+            <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="services-grid" id="services-container"></div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2>Our Recent Projects</h2>
+          <div class="portfolio-grid" id="portfolio-container"></div>
+        </div>
+      </section>
+
+      <section id="team" class="team">
+        <div class="container">
+          <h2>Meet Our Team</h2>
+          <div class="team-grid" id="team-container"></div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <h2>What Our Clients Say</h2>
+          <div class="testimonial-slider" id="testimonial-container"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Contact Details</h3>
+              <p>Email: hello@nexusdigital.com</p>
+              <p>Phone: (555) 123-4567</p>
+              <p>Address: 123 Innovation Street, Tech City</p>
+              <div class="social-links">
+                <a href="#" class="social-icon">LinkedIn</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+              </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <input type="text" name="company" placeholder="Company Name" />
+              <textarea
+                name="message"
+                placeholder="Tell us about your project"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="/api/placeholder/150/50" alt="Nexus Digital Logo" />
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Stay Updated</h4>
+            <form id="newsletter-form">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 Nexus Digital. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
